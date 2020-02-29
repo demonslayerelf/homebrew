@@ -1,0 +1,86 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Wendigo",
+				"abbreviation": "AVA",
+				"full": "The Works of Abel",
+				"url": "",
+				"authors": [
+					"Abel"
+				],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"vehicle": [
+		{
+			"name": "The Styx",
+			"source": "AVA",
+			"vehicleType": "SHIP",
+			"size": "G",
+			"dimensions": [
+				"100 ft.",
+				"20 ft."
+			],
+			"capCrew": 40, 60 passengers,
+			"capCargo": 200,
+			"pace": 4,
+			"str": 20,
+			"dex": 4,
+			"con": 20,
+			"int": 0,
+			"wis": 0,
+			"cha": 0,
+			"immune": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"incapacitated",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"stunned",
+				"unconscious"
+			],
+			"hull": {
+				"ac": 15,
+				"hp": 500,
+				"dt": 20
+			},
+			"movement": [
+				{
+					"name": "Oars",
+					"isControl": true,
+					"ac": 12,
+					"hp": 100; -5 ft. speed per 25 damage taken,
+					"locomotion": [
+						{
+							"mode": "water",
+							"entries": [
+								"20 ft. (requires at least 20 crew)"
+							]
+						}
+					]
+				}
+			],
+			"other": [
+				{
+					"name": "Actions",
+					"entries": [
+						"On its turn, the Styx can move using its oars."
+					]
+				}
+			]
+		}
+	]
+}
